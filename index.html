@@ -1,0 +1,71 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Football Cards Aktau</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: Arial, sans-serif; padding: 20px; background-color: #f8f8f8; }
+    header { text-align: center; margin-bottom: 20px; }
+    h1 { font-size: 2rem; }
+    .cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 20px; }
+    .card { background-color: #fff; padding: 15px; border-radius: 8px;
+             box-shadow: 0 2px 4px rgba(0,0,0,0.1); text-align: center; }
+    .card img { max-width: 100%; height: auto; margin-bottom: 10px; }
+    .card h2 { font-size: 1.2rem; margin-bottom: 8px; }
+    .card .price { font-size: 1rem; font-weight: bold; margin-bottom: 12px; }
+    .card .whatsapp-button {
+      display: inline-block; text-decoration: none; padding: 10px 15px;
+      border-radius: 5px; background-color: #25D366; color: #fff; font-weight: bold;
+    }
+    footer { text-align: center; margin-top: 30px; font-size: 0.9rem; color: #555; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Football Cards Aktau</h1>
+  </header>
+  <main>
+    <div class="cards">
+      <div class="card">
+        <img src="images/ronaldo.png" alt="Cristiano Ronaldo" />
+        <h2>1 карточка: Cristiano Ronaldo</h2>
+        <p class="price">300 ₸ (с доставкой)</p>
+        <a
+          class="whatsapp-button"
+          href="https://wa.me/7754369632?text=Здравствуйте!%20Хочу%20заказать%201%20карточку%20Cristiano%20Ronaldo."
+          target="_blank"
+          >Заказать в WhatsApp</a
+        >
+      </div>
+      <div class="card">
+        <img src="images/pack2.png" alt="Пакет 2 карточек" />
+        <h2>Пакет: 2 карточки</h2>
+        <p class="price">2 × 250 ₸ = 500 ₸ (бесплатная доставка)</p>
+        <a
+          class="whatsapp-button"
+          href="https://wa.me/7754369632?text=Здравствуйте!%20Хочу%20заказать%202%20карточки."
+          target="_blank"
+          >Заказать в WhatsApp</a
+        >
+      </div>
+      <div class="card">
+        <img src="images/pack5.png" alt="Пакет 5 карточек" />
+        <h2>Пакет "Топ-5"</h2>
+        <p class="price">1200 ₸ (бесплатная доставка)</p>
+        <a
+          class="whatsapp-button"
+          href="https://wa.me/7754369632?text=Здравствуйте!%20Хочу%20заказать%20пакет%20Топ-5."
+          target="_blank"
+          >Заказать в WhatsApp</a
+        >
+      </div>
+    </div>
+  </main>
+  <footer>
+    <p>Доставка по всему Казахстану. Оплата при получении.</p>
+  </footer>
+</body>
+</html>
